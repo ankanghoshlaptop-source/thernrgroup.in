@@ -118,7 +118,7 @@ color:#f4d37a;
 height:100vh;
 background:
 linear-gradient(rgba(35,22,12,.65),rgba(35,22,12,.75)),
-url("images/banner.jpg");
+background-image: url("Banner.jpg.JPG");
 background-size:cover;
 background-position:center;
 display:flex;
