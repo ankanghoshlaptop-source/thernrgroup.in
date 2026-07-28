@@ -1,0 +1,92 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#faf6ef;
+color:#333;
+}
+
+header{
+background:#5b3a29;
+color:#fff;
+padding:20px;
+text-align:center;
+}
+
+header img{
+width:90px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("images/banner.jpg");
+background-size:cover;
+background-position:center;
+height:500px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.hero a{
+background:#d79b35;
+color:white;
+padding:14px 30px;
+text-decoration:none;
+border-radius:8px;
+}
+
+#products{
+padding:60px 20px;
+text-align:center;
+}
+
+.card{
+display:inline-block;
+width:250px;
+background:white;
+margin:20px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+footer{
+background:#3d2619;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+
+footer a{
+color:#ffcc66;
+text-decoration:none;
+}
